@@ -1,3 +1,9 @@
+## Live
+
+[Live project](https://c-marc.github.io/countdown-reacteur/)
+
+Hint: activate devtools
+
 ## Motivation
 
 - il est moche et plein pub le counter gratuit :) et on le voit tous les matins...
