@@ -4,9 +4,9 @@ const message = [
   "👷 Lead engineer: I just found piece #712 in my pocket. Hopefully it's not critical 🤞",
   "👩‍🚀: What's that red button, again?",
   [
-    "👽: Almost got hit by a UFO on my way to work!",
+    "👾: Almost got hit by a UFO on my way to work!",
     "👽: Whaaat?! What did it look like?",
-    "👽: Weird and hugly... Like a human car...",
+    "👾: Weird and hugly... Like a human car...",
     "👽: Don't be crazy... Humans are stupid... But not that stupid they'd throw terrestrial vehicles out in space...",
   ],
 ];
