@@ -31,6 +31,8 @@ Hint: activate devtools
 
 ## TODO:
 
+- add favicons
+- fix wrap hugliness of controls
 - implement some surprise when we hit 0:
   - add a rocket with class negative/positive (set by updatecounter): rocket can transition from CSS negative bottom (out of viewport) to negative top (out as well) with some easing: hitting zero will show a rocket move across the screen (emoticon exists and just requires 45°)
   - or randomly alternate with a flying ET saucer (emoticon) that traverse horizontally
