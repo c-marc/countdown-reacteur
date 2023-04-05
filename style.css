@@ -1,0 +1,112 @@
+/*
+QUICK RESET
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+THEME
+*/
+:root {
+  /* Fixed */
+  --clr-dark: hsl(0, 0%, 10%);
+  --clr-light: white;
+  --clr-reacteur: #5c48d3;
+  /* Tweaked from JS */
+  --color: var(--clr-dark);
+  --bg-color: var(--clr-light);
+}
+
+body {
+  margin-top: 1rem;
+  color: var(--color);
+  background-color: var(--bg-color);
+  height: 100svh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 3rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/*
+CONTROLS
+*/
+div[data-controls] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+input,
+button {
+  padding: 0.5em 1em;
+}
+
+input {
+  width: 4.5rem; /*didn't find a better way: without they behave differently. Maybe this is due to how they stretch in parent container*/
+}
+
+/*
+COUNTER
+*/
+span[data-counter] {
+  font-weight: bold;
+  font-size: clamp(2rem, 10rem, 30svw);
+}
+
+span[data-counter].positive {
+  opacity: 0.5;
+}
+
+/*
+CLICKABLE ICONS
+Theme changes display prop
+*/
+#toggle-theme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: 2px solid var(--color);
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  padding: 0.5rem;
+}
+
+#toggle-theme svg {
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+
+#toggle-theme svg[data-theme="active"] {
+  display: block;
+}
+
+#toggle-theme:hover {
+  opacity: 0.8;
+}
+
+/*
+BANNERS
+They're top of each other. Theme changes z-index 
+*/
+img {
+  z-index: -10;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+img[data-theme="active"] {
+  z-index: -5;
+}
