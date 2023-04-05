@@ -18,7 +18,7 @@ const message = [
   ],
 ];
 
-const DELAY_MIN = 1;
+const DELAY_MIN = 30;
 const DELAY_MAX = 60;
 
 const DELAY_MIN_SEQ = 1;
