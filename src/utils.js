@@ -1,22 +1,4 @@
-// launching sequence context
-const message = [
-  "🐱: Chalut !",
-  "🐮: Ca vache ?",
-  "👷 Lead engineer: I just found piece #712 in my pocket. Hopefully it's not critical 🤞",
-  "👩‍🚀: What's that red button, again?",
-  [
-    "👾: Almost got hit by a UFO on my way to work!",
-    "👽: Whaaat?! What did it look like?",
-    "👾: Weird and hugly... Like a human car...",
-    "👽: Don't be crazy... Humans are stupid... But not that stupid they'd throw terrestrial vehicles out in space...",
-  ],
-  [
-    "👩‍💻 Lead developer: Fun fact: Tonight, I just pushed untested breaking changes in prod!",
-    "👩‍💻 Lead developer: PS: Don't worry, it was JavaScript 🤪",
-    "👩‍💻 Lead developer: PPS: Just joking: enjoy the launch",
-    "👩‍💻 Lead developer: PPPS: Is navigation working as usual?",
-  ],
-];
+import { messages } from "./messages.js";
 
 const DELAY_MIN = 30;
 const DELAY_MAX = 60;
@@ -37,8 +19,8 @@ const sequentialChat = (array, i = 0) => {
 export const randomChat = () => {
   const delay = (Math.random() * (DELAY_MAX - DELAY_MIN) + DELAY_MIN) * 1000;
   setTimeout(() => {
-    const i = Math.floor(Math.random() * message.length);
-    const m = message[i];
+    const i = Math.floor(Math.random() * messages.length);
+    const m = messages[i];
     if (Array.isArray(m)) {
       sequentialChat(m);
     } else {

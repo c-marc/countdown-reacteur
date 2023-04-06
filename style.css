@@ -21,7 +21,7 @@ THEME
 }
 
 body {
-  margin-top: 1rem;
+  padding-top: 1rem;
   color: var(--color);
   background-color: var(--bg-color);
   height: 100svh;

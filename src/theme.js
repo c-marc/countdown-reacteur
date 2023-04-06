@@ -1,4 +1,4 @@
-// Useful refs
+// DOM refs
 const root = document.querySelector(":root");
 
 const moon = document.querySelector("#moon");
@@ -6,6 +6,8 @@ const sun = document.querySelector("#sun");
 
 const imgLight = document.querySelector("#img-light");
 const imgDark = document.querySelector("#img-dark");
+
+const toggleBtn = document.getElementById("toggle-theme");
 
 let dark = true;
 
@@ -31,7 +33,7 @@ const setTheme = (dark) => {
   localStorage.setItem("cdr-theme-dark", dark);
 };
 
-export const toggleTheme = () => {
+const toggleTheme = () => {
   dark = !dark;
   setTheme(dark);
 };
@@ -39,4 +41,8 @@ export const toggleTheme = () => {
 export const initializeTheme = () => {
   dark = JSON.parse(localStorage.getItem("cdr-theme-dark")) ?? dark;
   setTheme(dark);
+};
+
+export const connectThemeToggler = () => {
+  toggleBtn.addEventListener("click", toggleTheme);
 };
