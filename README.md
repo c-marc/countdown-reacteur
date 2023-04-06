@@ -6,7 +6,7 @@
 
 ## Important
 
-Please don't use it for promotion. We haven't seen DOM and integration yet: I feel that would be unfair for future student, and frustrating/distracting for enrolled students who are currently fighting with `node.js` and need to focus on backend. And I also don't want to brag about it. Plus it's not finished and I'll probably make some heavy refactoring. It's just a small side-project I'm happy to share privately:
+Please don't use it for promotion. We haven't seen DOM and integration yet. It's not finished and I'll probably make some heavy refactoring. It's just a small side-project I'm happy to share privately:
 
 - for code review and help on some things
 - for contribution
@@ -17,7 +17,7 @@ Thanks !
 
 ## Motivation
 
-- il est moche et plein pub le counter gratuit :) et on le voit tous les matins...
+- il est moche et plein de pub le counter gratuit :) et on le voit tous les matins...
 - c'est un exemple _simple_ auquel on est confronté quotidiennement et qu'on peut s'approprier
 - à la réflexion, il y a plein de points d'entrée, du très simple au très compliqué:
   - callback et interval à initialiser et supprimer
