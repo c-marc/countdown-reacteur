@@ -10,8 +10,8 @@ Please don't use it for promotion. We haven't seen DOM and integration yet: I fe
 
 - for code review and help
 - for contribution
-- if you're interested in using it, I can work on it a little bit more and make it a real project with package.json, favicon, more code doc, and all those things
-- if you think that would be good learning material, I can try to draft a markdown explaining a little bit better what's in the project
+- if you're interested in using it, I can work on it a little bit more and make it a real project with package.json, favicon, more complete code doc, and all those things
+- if you think that would be good learning material, I can try to draft a markdown explaining a little bit better what's in the project on a coding perspective.
 
 Thanks !
 
@@ -37,7 +37,7 @@ Thanks !
 
 ## Contributing
 
-- add licence to respect assets
+- add licence to respect assets and Reacteur copyright
 - code review: anything JS and/or CSS
 
 ## TO DO
