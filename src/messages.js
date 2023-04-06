@@ -32,6 +32,6 @@ export const messages = [
     "🤡: 8.5",
     "🤡: 15...",
     "🤡: 42...",
-    "😑: Not now, Frank!",
+    "😑: Not now, Krusty!",
   ],
 ];
