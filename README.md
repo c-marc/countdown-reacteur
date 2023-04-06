@@ -2,7 +2,18 @@
 
 [Live project](https://c-marc.github.io/countdown-reacteur/)
 
-Hint: activate devtools
+- Hint: activate devtools
+
+## Important
+
+Please don't use it for promotion. We haven't seen DOM and integration yet: I feel that would be unfair for future student, and frustrating/distracting for enrolled students who are currently fighting with `node.js` and need to focus on backend. And I also don't want to brag about it. It's just a small side-project I'm happy to share privately:
+
+- for code review and help
+- for contribution
+- if you're interested in using it, I can work on it a little bit more and make it a real project with package.json, favicon, more code doc, and all those things
+- if you think that would be good learning material, I can try to draft a markdown explaining a little bit better what's in the project
+
+Thanks !
 
 ## Motivation
 
@@ -29,10 +40,10 @@ Hint: activate devtools
 - add licence to respect assets
 - code review: anything JS and/or CSS
 
-## TODO:
+## TO DO
 
 - add favicons
-- fix wrap hugliness of controls
+- fix wrapping hugliness of controls
 - implement some surprise when we hit 0:
   - add a rocket with class negative/positive (set by updatecounter): rocket can transition from CSS negative bottom (out of viewport) to negative top (out as well) with some easing: hitting zero will show a rocket move across the screen (emoticon exists and just requires 45°)
   - or randomly alternate with a flying ET saucer (emoticon) that traverse horizontally
