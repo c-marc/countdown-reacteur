@@ -35,7 +35,7 @@ export const messages = [
     "😑: Not now, Krusty!",
   ],
   [
-    "👨‍🚀: Spcae: the final frontier...",
+    "👨‍🚀: Space: the final frontier...",
     "🖖: Highly illogical",
     "👨‍🚀: Please don't ruin my speech again...",
     "🖖: Live long and prosper"
