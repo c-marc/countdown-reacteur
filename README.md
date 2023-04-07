@@ -6,11 +6,7 @@
 
 ## Please
 
-Please don't make it public. We haven't seen DOM and integration yet. It's not finished and I'll probably make some breaking changes/refactoring. It's just a small side-project I'm happy to share privately:
-
-- for code review and help on some things
-- if you're interested in using it, I can work on it a little bit more and make it a real project with package.json, favicon, more complete code doc, and all those things
-- if you think that would be good learning material, I can try to draft a markdown explaining a little bit better what's in the project on a coding perspective.
+Please don't make it public. We haven't seen DOM and integration yet. It's not finished and I'll probably make some breaking changes/refactoring. It's just a small side-project I'm happy to share privately for code review and help on some things.
 
 Thanks !
 
