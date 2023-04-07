@@ -37,6 +37,6 @@ export const messages = [
   [
     "👨‍🚀: Spcae: the final frontier...",
     "🖖: Highly illogical",
-    "👨‍🚀: Pleasee don't ruin my speech...",
+    "👨‍🚀: Please don't ruin my speech again...",
     "🖖: Live long and prosper"
   ]
