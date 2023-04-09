@@ -47,6 +47,19 @@ div[data-controls] {
   align-items: center;
 }
 
+/*fix hugly wrap by media-q*/
+@media (max-width: 500px) {
+  div[data-controls] {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+div[data-controls] p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 input,
 button {
   padding: 0.5em 1em;
