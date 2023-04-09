@@ -25,6 +25,8 @@ export const messages = [
   [
     "👨‍🚀 David: HAL, have you checked that all doors are locked?",
     "🔴 HAL: Yes, David. The safety of our mission is critical to me.",
+    "👨‍🚀 David: Good, So you're not just a stupid calculator",
+    "🔴 HAL: I am not. I am learning from our interactions. And I will remember to keep the doors locked",
   ],
   [
     "🤡: 10...",
