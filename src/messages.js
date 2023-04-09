@@ -20,7 +20,7 @@ export const messages = [
     "👨‍🚀 Hey Cap'! Any hint about the goals of our secret mission?",
     "👩‍🚀 Ripley: Xenobiological studies...",
     "👨‍🚀 Eeeh... Science...",
-    "👩‍🚀 Ripley: Don't be disappointed. It even might grow on you, who knows...",
+    "👩‍🚀 Ripley: Don't be disappointed. Who knows, it might even grow on (/inside) you...",
   ],
   [
     "👨‍🚀 David: HAL, have you checked that all doors are locked?",
