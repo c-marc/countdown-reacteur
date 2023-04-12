@@ -2,13 +2,7 @@
 
 [Live project](https://c-marc.github.io/countdown-reacteur/)
 
-Hint: activate devtools
-
-## Please
-
-Please keep it private. We haven't seen DOM and integration yet. It's not finished and I'll probably make some breaking changes/refactoring. It's just a small side-project for code review and help on some things.
-
-Thanks !
+**Hint:** activate devtools 😜
 
 ## Motivation
 
@@ -22,7 +16,7 @@ Small projet with interesting small and independant challenges:
 
 ## Features
 
-Vanilla JS project: no depenency (haven't even made a project)
+Vanilla JS project: no dependency (haven't even made it a project yet)
 
 - countdown until 0 and keep counting up afterwards with a rendering variant
 - controlled input with mutual dependency
@@ -42,7 +36,7 @@ Hidden secondary app:
 
 Any code review is welcome: html, JS and/or CSS.
 
-I'm specifically not sure about or satsfied by:
+I'm specifically not sure about or satsfied with:
 
 - strategy for DOM manipulation without React (this is about dark/light versions: 2 images; 2 icons):
 
@@ -57,7 +51,7 @@ I'm specifically not sure about or satsfied by:
 
 ## Roadmap
 
-- add favicons
+- add favicons and so on...
 - implement some surprise when we hit 0:
   - add a rocket with class negative/positive (set by updatecounter): rocket can transition from CSS negative bottom (out of viewport) to negative top (out as well) with some easing: hitting zero will show a rocket move across the screen (emoticon exists and just requires 45°)
   - or randomly alternate with a flying ET saucer (emoticon) that traverse horizontally
